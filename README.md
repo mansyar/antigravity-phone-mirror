@@ -44,7 +44,7 @@ cp .env.example .env
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3333](http://localhost:3333) in your browser.
 
 ### Commands
 
@@ -81,7 +81,7 @@ src/
 ### Health Check
 
 ```bash
-curl http://localhost:3000/api/health
+curl http://localhost:3333/api/health
 ```
 
 Returns:
