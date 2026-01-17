@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.nitro/
+.tanstack/
+.wrangler/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# SQLite database
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Miscellaneous
+count.txt
+todos.json
+*.tsbuildinfo
+.cache/
+
+# PWA service worker (generated)
+sw.js
+workbox-*.js
